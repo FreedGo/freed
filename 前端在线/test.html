@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Title</title>
+</head>
+<body>
+<ul id="list-itmes">
+	<li id="item1">1</li>
+	<li id="item2">2</li>
+	<li id="item3">3</li>
+</ul>
+</body>
+<script>
+	var lists = document.getElementById('list-itmes'),
+	    list1 = document.getElementById('item1'),
+	    list2 = document.getElementById('item2'),
+	    list3 = document.getElementById('item3');
+	var listsNodes = lists.childNodes;
+	console.log(listsNodes);
+</script>
+</html>
